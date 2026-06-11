@@ -1,0 +1,6 @@
+baseUrl=https://erp.company.com
+browser=chrome
+username=admin
+password=test123
+timeout=30
+environment=QA

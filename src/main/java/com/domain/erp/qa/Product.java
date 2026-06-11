@@ -1,6 +1,12 @@
 package com.domain.erp.qa;
 
 public class Product {
+public Product(int id, String name, int price) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.price = price;
+	}
 private int id;
 private String name;
 private int price;

@@ -9,12 +9,12 @@ public class Invoice {
 	private String Customerid;  
     private List<Integer> itemids=new ArrayList<Integer>();
     
-	public Invoice(int invoiceid, double totalamount, String Customerid, List<Integer> itemids) {
+	public Invoice(int invoiceid, double totalamount, String Customerid) {
 
 		this.invoiceid = invoiceid;
 		this.totalamount = totalamount;
 		this.Customerid = Customerid;
-		this.itemids = itemids;
+		
 	}
 	//autoboxing
 	public void additem(int itemid) {
